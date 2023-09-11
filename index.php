@@ -1,5 +1,5 @@
 <?php
-$db = new mysqli("localhost", "root", "", "db_bukutamu");
+$db = new mysqli("127.0.0.1", "root", "password", "db_bukutamu");
 @session_start();
 
 if (@$_SESSION['admin']) {
